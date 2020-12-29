@@ -1,0 +1,102 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-image: url("icons/background.jpg");
+	font-family: Arial, Helvetica;
+	margin: 0;
+}
+.row1{
+	background-color: white;
+	color: black;
+	text-align: center;
+	width:420px;
+	margin: auto;
+	border-radius:25px;
+	box-shadow:1px 1px 1px white;
+}
+.mainrow{
+	padding: 16px;
+	color:black;
+	margin: auto;
+	width:800px;
+	background-color: #006699;
+	border-radius:25px;
+	box-shadow:0px 3px 12px white;
+	position:relative;
+	top:25px;
+}
+.mainrow form{
+	font-weight: bold;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.row2{
+	background-color: white;
+	display:flex;
+	padding: 20px;
+	margin: auto;
+	width:400px;
+	height:200px;
+	text-align: center;
+}
+.row2 div{
+	padding:10px;
+	border-style: solid;
+	flex:33%;
+}
+.row2 h4{
+	color: black;
+	text-align: center;
+}
+.row3{
+	padding: 16px;
+	color:black;
+	margin: auto;
+	width:550px;
+	background-color: #006699;
+	border-radius:25px;
+	box-shadow:0px 3px 12px white;
+	position:relative;
+	top:25px;
+}
+.row4{
+	background-color: white;
+	display:flex;
+	padding: 20px;
+	margin: auto;
+	width:400px;
+	height:130px;
+	text-align: center;
+}
+.row4 div{
+	padding:10px;
+	border-style: solid;
+	flex:33%;
+}
+.row4 h4{
+	color: black;
+	text-align: center;
+}
+.row5{
+	background-color: white;
+	color: black;
+	text-align: center;
+	width:510px;
+	margin: auto;
+	border-radius:25px;
+	box-shadow:1px 1px 1px white;
+}
+.footer{
+	background-color: black;
+	padding: 30px;
+	text-align: center;
+	color:white;
+}
+@media screen and (max-width: 500px) {
+.navbar a {
+	float: none;
+	display: block;
+}
