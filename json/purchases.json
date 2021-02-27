@@ -1,7 +1,0 @@
-{"_id":{"$oid":"5fdb46b7754000003c0066fc"},"name":"nick","surname":"sakellariou","date":"2020-12-17 12:53:24","title":"Σαλάτα του Σεφ","cost":"4"}
-{"_id":{"$oid":"5fdb46b7754000003c0066fd"},"name":"nick","surname":"sakellariou","date":"2020-12-17 12:53:24","title":"Τορτελίνια με τυριά","cost":"6"}
-{"_id":{"$oid":"5fdb46b7754000003c0066fe"},"name":"nick","surname":"sakellariou","date":"2020-12-17 12:53:24","title":"Pizza Special","cost":"6"}
-{"_id":{"$oid":"5fdb46b7754000003c0066ff"},"name":"nick","surname":"sakellariou","date":"2020-12-17 12:53:24","title":"Μπύρα Amstel","cost":"2"}
-{"_id":{"$oid":"5fdb4976754000003c006701"},"name":"nikolas","surname":"sakellariou","date":"2020-12-17 13:05:09","title":"Pizza Special","cost":"6"}
-{"_id":{"$oid":"5fdb4976754000003c006702"},"name":"nikolas","surname":"sakellariou","date":"2020-12-17 13:05:09","title":"Pizza BBQ","cost":"7"}
-{"_id":{"$oid":"5fdb4976754000003c006703"},"name":"nikolas","surname":"sakellariou","date":"2020-12-17 13:05:09","title":"Pizza Margherita","cost":"5"}

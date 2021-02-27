@@ -12,7 +12,7 @@
 		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
 		  <ul class="navbar-nav">
 			<li class="nav-item">
-			  <a class="nav-link" href="home.php">ΑΡΧΙΚΗ ΣΕΛΙΔΑ</a>
+			  <a class="nav-link" href="home.html">ΑΡΧΙΚΗ ΣΕΛΙΔΑ</a>
 			</li>
 			<li class="nav-item active">
 			  <a class="nav-link" href="order.html">ΠΑΡΑΓΓΕΛΙΑ</a>
@@ -23,12 +23,6 @@
 			<li class="nav-item">
 			  <a class="nav-link" href="contact.html">ΕΠΙΚΟΙΝΩΝΙΑ</a>
 			</li>
-			<li class="nav-item">
-			  <a class="nav-link" href="cart.php">ΚΑΛΑΘΙ</a>
-			</li>
-			<li class="nav-item">
-			  <a class="nav-link" href="past_orders.php">ΙΣΤΟΡΙΚΟ</a>
-			</li>
 		  </ul>
 		</nav>
 		<br>
@@ -37,41 +31,41 @@
 		</div>
 		<div class="mainrow">
 			<h2>Εισάγετε τα προσωπικά σας στοιχεία</h2>
-			<form method="POST" action="checkout.php">
+			<form>
 				<hr>
 				<div class="form-group">
 				  <label for="name">Όνομα:</label>
-				  <input type="text" class="form-control" pattern="[a-zA-Z]{1,}" title="Must contain only letters" id="name" name="name" required>
+				  <input type="text" class="form-control" pattern="[a-z]{1,}" title="Must contain only letters" id="name" required>
 				</div>
 				<div class="form-group">
 				  <label for="surname">Επίθετο:</label>
-				  <input type="text" class="form-control" pattern="[a-zA-Z]{1,}" title="Must contain only letters" id="surname" name="surname" required>
+				  <input type="text" class="form-control" pattern="[a-z]{1,}" title="Must contain only letters" id="surname" required>
 				</div>
 				<div class="form-group">
 				  <label for="email">E-mail:</label>
-				  <input type="text" class="form-control" pattern="[[a-zA-Z]0-9._%+-]+@[[a-zA-Z]0-9.-]+\.[[a-zA-Z]]{2,}$" title="characters followed by an @ sign, followed by more characters, and then a '.',followed by at least 2 letters from a to z" id="email" name="email" required>
+				  <input type="text" class="form-control" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="characters followed by an @ sign, followed by more characters, and then a '.',followed by at least 2 letters from a to z" id="email" required>
 				</div>
 				<div class="form-group">
 				  <label for="phone">Τηλέφωνο:</label>
-				  <input type="text" class="form-control" pattern="[0-9]{10}" title="Must contain 10 numbers" id="phone" name="phone" required>
+				  <input type="text" class="form-control" pattern="[0-9]{10}" title="Must contain 10 numbers" id="phone" required>
 				</div>
 					<h2>Εισάγετε τα στοιχεία αποστολής της παραγγελίας</h2>
 					<hr>
 					<div class="form-group">
 				  <label for="street">Οδός:</label>
-				  <input type="text" class="form-control" pattern="[a-zA-Z]{1,}" title="Must contain only letters" id="street" name="street" required>
+				  <input type="text" class="form-control" pattern="[a-z]{1,}" title="Must contain only letters" id="street" required>
 				</div>
 				<div class="form-group">
 				  <label for="streetNumber">Αριθμός οδού:</label>
-				  <input type="text" class="form-control" pattern="[0-9]+" title="Must contain only numbers" id="streetNumber" name="streetNumber" required>
+				  <input type="text" class="form-control" pattern="[0-9]+" title="Must contain only numbers" id="streetNumber" required>
 				</div>
 				<div class="form-group">
 				  <label for="email">Περιοχή:</label>
-				  <input type="text" class="form-control" pattern="[a-zA-Z]{1,}" title="Must contain only letters" id="area" name="area" required>
+				  <input type="text" class="form-control" pattern="[a-z]{1,}" title="Must contain only letters" id="area" required>
 				</div>
 				<div class="form-group">
 				  <label for="postalCode">Ταχυδρομικός κώδικας:</label>
-				  <input type="text" class="form-control" pattern="[0-9]{5}" title="Must contain 5 numbers" id="postalCode" name="postalCode" required>
+				  <input type="text" class="form-control" pattern="[0-9]{5}" title="Must contain 5 numbers" id="postalCode" required>
 				</div>
 				<br>
 				<button type="submit">Υποβολή</button>
