@@ -1,3 +1,3 @@
 # Web-Application2
 
-A Web Application i created using HTML, CSS, Bootstrap, JavaScript, JQuery, PHP, MongoDB that really helped me learn better those languages.
+I created the same project using JavaScript in part 1 and using JQuery in part 2.
